@@ -39,6 +39,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
+    padding-right: 100px;
 }
 
 .bottom-section {
@@ -60,10 +61,22 @@ h1 {
 form {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
     height: 70%;
     column-gap: 50px;
-    row-gap: 25px;
+}
+
+label {
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #E5E7EB;
 }
 
 button {
@@ -83,13 +96,6 @@ div.row {
     flex: 0 0 30%;
 }
 
-input {
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-    border: solid 1px #ddd;
-}
-
 p {
     font-weight: bold;
     font-size: 18px;
@@ -101,4 +107,5 @@ p {
 
 .form-heading {
     color: #4b4b4b;
+    padding-bottom: 15px;
 }
