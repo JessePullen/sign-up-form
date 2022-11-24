@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./assets/Norse-Bold.otf);
+}
+
 * {
     font-family: Roboto, sans-serif;
 }
@@ -21,7 +26,43 @@ h1 {
 
 .banner {
     width: 60%;
-    background-color: #596D48;
+    background-image: url("./assets/banner-photo.webp");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 150px;
+    margin-top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: white;
+    font-family: Norse-Bold, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.banner-title-image {
+    height: 125px;
+    width: 100px;
+}
+
+.photo-credit {
+    color: lightgray;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+a {
+    color: lightgray;
 }
 
 .main-section {
