@@ -118,6 +118,7 @@ input {
     height: 25px;
     border-radius: 5px;
     border: solid 1px #E5E7EB;
+    outline: none;
 }
 
 button {
@@ -149,4 +150,14 @@ p {
 .form-heading {
     color: #4b4b4b;
     padding-bottom: 15px;
+}
+
+input:focus {
+    border: solid 1px blue;
+    box-shadow: 1px 1px 5px;
+}
+
+.error:focus {
+    border: solid 1px red;
+    box-shadow: 1px 1px 5px;
 }
